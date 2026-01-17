@@ -1,0 +1,22 @@
+{
+    "Group": "jw",
+    "Name": "MOD_NAME",
+    "Version": "1.17",
+    "Description": "MOD_DESCRIPTION",
+    "Authors": [
+        {
+            "Name": "YOUR_NAME"
+        }
+    ],
+    "Website": "YOUR_WEBSITE",
+    "ServerVersion": "*",
+    "Dependencies": {
+        
+    },
+    "OptionalDependencies": {
+        
+    },
+    "DisabledByDefault": false,
+    "Main": "com.yourgroup.yourmod.Main",
+    "IncludesAssetPack": true
+}
