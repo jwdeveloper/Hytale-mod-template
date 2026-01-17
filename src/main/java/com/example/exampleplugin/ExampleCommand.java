@@ -20,6 +20,6 @@ public class ExampleCommand extends CommandBase {
 
     @Override
     protected void executeSync(@Nonnull CommandContext ctx) {
-        ctx.sendMessage(Message.raw("Hello from the example3: " + pluginName + " v" + pluginVersion + " plugin!"));
+        ctx.sendMessage(Message.raw("Hello from the example: " + pluginName + " v" + pluginVersion + " plugin!"));
     }
 }
