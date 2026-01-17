@@ -1,4 +1,4 @@
-package com.yourgroup.yourmod;
+package com.example.exampleplugin;
 
 import com.hypixel.hytale.server.core.Message;
 import com.hypixel.hytale.server.core.entity.entities.Player;
@@ -10,6 +10,5 @@ public class ExampleEvent {
         Player player = event.getPlayer();
         player.sendMessage(Message.raw("Welcome " + player.getDisplayName()));
     }
-
 
 }

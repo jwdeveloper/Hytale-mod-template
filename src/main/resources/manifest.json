@@ -1,22 +1,18 @@
 {
-    "Group": "jw",
-    "Name": "MOD_NAME",
-    "Version": "1.17",
-    "Description": "MOD_DESCRIPTION",
-    "Authors": [
-        {
-            "Name": "YOUR_NAME"
-        }
-    ],
-    "Website": "YOUR_WEBSITE",
-    "ServerVersion": "*",
-    "Dependencies": {
-        
-    },
-    "OptionalDependencies": {
-        
-    },
-    "DisabledByDefault": false,
-    "Main": "com.yourgroup.yourmod.Main",
-    "IncludesAssetPack": true
+  "Group": "${plugin_group}",
+  "Name": "${plugin_name}",
+  "Version": "${plugin_version}",
+  "Description": "${plugin_description}",
+  "Authors": [
+    {
+      "Name": "${plugin_author}"
+    }
+  ],
+  "Website": "${plugin_website}",
+  "ServerVersion": "${server_version}",
+  "Dependencies": {},
+  "OptionalDependencies": {},
+  "DisabledByDefault": false,
+  "IncludesAssetPack": true,
+  "Main": "${plugin_main_entrypoint}"
 }
